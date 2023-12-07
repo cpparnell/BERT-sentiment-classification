@@ -2,7 +2,7 @@
 
 from datasets import load_dataset
 import transformers
-from transformers import AutoTokenizer, TrainingArguments, Trainer, AutoModelForSequenceClassification, DataCollatorWithPadding
+from transformers import AutoTokenizer, TrainingArguments, Trainer, AutoModelForSequenceClassification
 from datetime import datetime
 import torch
 
